@@ -1,0 +1,91 @@
+<html>
+  <head>
+    <title>Cryptogram Breaker</title>
+
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:700italic' rel='stylesheet' type='text/css'>
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+
+
+		<link href='https://fonts.googleapis.com/css?family=Roboto|Open+Sans|Open+Sans+Condensed:300|' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Francois+One|Signika:400,600' rel='stylesheet' type='text/css'>
+  </head>
+
+	<body>
+
+
+
+    <!-- Main body -->
+		<div class="jumbotron">
+
+				<div id="content">
+					<!---<div id="Header">--->
+			<h4>Cryptogram Breaker</h4>
+		<!--</div>-->
+
+		<div id= "cBrkr">
+
+			<h1>Enter Input Here</h1>
+			<textarea name="atbashtext" id="atbashtext" cols="97%" rows="10"></textarea>
+			<br/>
+			<div id="input">
+			<input type="button" onClick="atbash()" class="button" value="Apply Atbash"/>
+			<input type="button" onClick="atbash()" class="button" value="Break Atbash"/>
+
+			<input type="button" onClick="encryptit()" class="button" value="Apply A1Z26" />
+			<input type="button" onClick="decryptit()" class="button" value="Break A1Z26" />
+
+			<input type="button" onClick="csr_ncrpt()" class="button" value="Apply Caeser" />
+      <select id="num">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  <option value="9">9</option>
+  <option value="10">10</option>
+  <option value="11">11</option>
+  <option value="12">12</option>
+  <option value="13">13</option>
+  <option value="14">14</option>
+  <option value="15">15</option>
+  <option value="16">16</option>
+  <option value="17">17</option>
+  <option value="18">18</option>
+  <option value="19">19</option>
+  <option value="20">20</option>
+  <option value="21">21</option>
+  <option value="22">22</option>
+  <option value="23">23</option>
+  <option value="24">24</option>
+  <option value="25">25</option>
+  <option value="26">26</option>
+</select>
+			<input type="button" onClick="csr_dcrpt()" class="button" value="Break Caesar"/>
+
+
+			</div>
+
+		</div>
+				</div>
+
+		</div>
+
+
+    <script src="js/jquery-1.7.2.min.js"></script>
+  	<script src="js/nav1.1.min.js"></script>
+  	
+  	<script src="js/atbash.js"></script>
+  		<script src="js/a1z26.js"></script>
+  		<script src="js/caesar_decrypt.js"></script>
+  		<script src="js/caesar_encrypt.js"></script>
+	</body>
+
+</html>

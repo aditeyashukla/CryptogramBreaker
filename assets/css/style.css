@@ -1,0 +1,243 @@
+#navigation ul, #navigation li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+body {
+  left: 0;
+  margin: 0;
+  position: relative;
+  background: #C4D1DF;
+}
+
+/* Initial menu */
+.menu {
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  left: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+  margin-top:-277px;
+}
+
+/* Basic styling */
+
+.jumbotron {
+
+  height: 100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 85px;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+}
+
+#header {
+ position:fixed;
+ height: 31.4842578%;
+ width: 100%;
+ background: #a1e877;
+ margin-top: -277px;
+ border-bottom: solid grey;
+}
+
+.title {
+    font-family: arial;
+    font-size: 60px;
+    color: grey;
+    text-align: center;
+	margin-top:-5px;
+	}
+
+b {
+color: white;
+font-family: 'oswald' arial;
+}
+
+h2 {
+font-family: 'Droid Serif';
+font-size: 70px;
+font-style: italic;
+font-weight: bold;
+margin-left: 60px;
+color: #5F4F4F;
+
+	}
+
+.content {
+    width: 470px;
+border-radius: 5px;
+font-family: arial;
+font-size: 25px;
+padding: 5px;
+margin-left: 46px;
+}
+
+#content {
+	border: dashed #808080;
+    margin-left: 164px;
+    margin-right: 191px;
+	margin-top: 277px;
+	}
+
+.profile {
+    float: right;
+    margin-top: -349px;
+    height: 333px;
+    border-radius: 5px;
+    padding-right: 15px;
+}
+
+/*Programs*/
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.leader{
+	border: solid #77B1B8;
+    background-color: #77B1B8;
+    height: 170px;
+}
+
+.program{
+	font-family: Open Sans;
+    font-size: 24px;
+    margin-left: 60px;
+    text-decoration: underline;
+}
+
+.urslf {
+	width: 137px;
+    font-family: Oswald;
+    background-color: white;
+    height: 63px;
+    font-size: 20px;
+    color: #FF8C00;
+    border-radius: 5px;
+    float: right;
+    margin-right: 107px;
+    text-align: center;
+    border: solid;
+}
+
+/*Pages with Forms*/
+textarea{
+	font-family: 'Titillium Web', sans-serif;
+	font-size:20px;
+}
+
+#input {
+	margin-left:15px;
+}
+.button {
+	background-color:#fe767a;
+	font-family: 'Signika', sans-serif;
+	border: 0;
+    width: 108px;
+    height: 72px;
+    border-radius: 1px;
+    font-size: 17px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    margin: 25px;
+    margin-bottom: 2px;
+}
+
+/*Contact*/
+#contact{
+	font-size:20px;
+}
+.link:hover{
+	text-decoration:underline;
+}
+
+/*Program:Leader*/
+label{
+	font-family: oswald;
+    font-size: 35px;
+    margin-left: 393px;
+}
+
+#country{
+	margin-left: 334px;
+    font-family: Open Sans;
+    font-size: 27px;
+    border-radius: 8px;
+    background-color: #fff090;
+	border: none;
+}
+
+#demo{
+	font-family: oswald;
+    font-size: 22px;
+    text-align: center;
+}
+
+/*Program:Crypto*/
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 55px;
+    color: #fe767a;
+    text-align: center;
+
+}
+h4{
+	font-family: 'Droid Serif';
+font-size: 70px;
+font-style: italic;
+font-weight: bold;
+margin-left: 60px;
+color: #5F4F4F;
+text-align:center;
+}
+
+textarea{margin-left:3vw;
+
+}
